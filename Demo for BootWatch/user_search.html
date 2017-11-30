@@ -1,0 +1,155 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>无标题文档</title>
+<link href="https://bootswatch.com/4/cerulean/bootstrap.min.css" rel="stylesheet">
+<link href="css/main.css" rel="stylesheet">
+</head>
+
+<body>
+<nav class="navbar navbar-default">
+ <div class="container">
+ <!-- 小屏幕导航按钮和logo -->
+ <div class="navbar-header">
+ <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+ <span class="icon-bar"></span>
+ <span class="icon-bar"></span>
+ <span class="icon-bar"></span>
+ </button>
+ <a href="#" class="navbar-brand">Helo</a>
+ </div>
+ <!-- 小屏幕导航按钮和logo -
+ <!-- 右边的导航 -->
+ <div class="navbar-collapse collapse">
+  <ul class="nav navbar-nav">
+ <li><a href="index.html">首页</a></li>
+ <li class="active"><a href="user.html">用户</a></li>
+ <li><a href="tag.html">标签</a></li>
+ </ul> 
+  <ul class="nav navbar-nav navbar-right">
+  <li class="dropdown">
+  <a id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    admin
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" aria-labelledby="dLabel">
+   <li><a>前台主页</a></li>
+   <li><a>前台主页</a></li>
+   <li><a>前台主页</a></li>
+   <li><a>前台主页</a></li>
+  </ul>
+</li>
+  <li><a href="">联系我们</a></li>
+  <li><a href="">联系他们</a></li>
+  </ul>
+ </div>
+
+ <!-- 右边的导航 -->
+ </div>
+</nav>
+<!--导航-->
+
+<div class="container"><div class="row">
+<div class="col-md-2">
+<div class="list-group">
+<a href="user.html" class="list-group-item">用户列表</a>
+<a href="user_search.html" class="list-group-item active">用户搜索</a>
+<a href="#" role="button" class="list-group-item" data-toggle="modal" data-target="#myModal">添加用户</a>
+<!-- Button trigger modal -->
+
+
+
+
+</div>
+
+</div>
+
+<div class="col-md-10">
+<div class="page-header">
+<h4><strong>用户搜索</strong></h4>
+</div>
+<ul class="nav nav-tabs">
+<li><a href="user.html">Vip用户列表</a></li>
+<li class="active"><a href="#">用户搜索</a></li>
+</ul>
+
+<form class="searchform">
+<div class="alert alert-info">
+搜索
+</div>
+
+<div class="form-group">
+<label for="username">用户名：</label>
+<input id="username" class="form-control" placeholder="请输入用户名">
+</div>
+
+<div class="form-group">
+<label for="userID">用户ID：</label>
+<input id="userID" class="form-control" placeholder="请输入用户ID">
+</div>
+<div class="form-group">
+<label for="usergroup">用户组：</label>
+<select id="usergroup" class="form-control">
+<option>用户组1</option>
+<option>用户组2</option>
+<option>用户组3</option>
+
+</select>
+</div>
+<button class="btn btn-default">搜索</button>
+</form>
+</div>
+
+
+
+
+</div></div>
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">添加用户</h4>
+      </div>
+      <div class="modal-body">
+       <form>
+<div class="form-group">
+<label for="addusername">用户名：</label>
+<input id="addusername" class="form-control" placeholder="请输入用户名">
+</div>
+
+<div class="form-group">
+<label for="adduserID">用户ID：</label>
+<input id="adduserID" class="form-control" placeholder="请输入用户ID">
+</div>
+
+<div class="form-group">
+<label for="addusergroup">用户组：</label>
+<select id="addusergroup" class="form-control">
+<option>用户组1</option>
+<option>用户组2</option>
+<option>用户组3</option>
+
+</select>
+</div>  
+</form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+        <button type="button" class="btn btn-primary">保存</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

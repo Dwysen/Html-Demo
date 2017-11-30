@@ -1,0 +1,145 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>无标题文档</title>
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/main.css" rel="stylesheet">
+</head>
+
+<body>
+<nav class="navbar navbar-default">
+ <div class="container">
+ <!-- 小屏幕导航按钮和logo -->
+ <div class="navbar-header">
+ <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+ <span class="icon-bar"></span>
+ <span class="icon-bar"></span>
+ <span class="icon-bar"></span>
+ </button>
+ <a href="#" class="navbar-brand">Helo</a>
+ </div>
+ <!-- 小屏幕导航按钮和logo -
+ <!-- 右边的导航 -->
+ <div class="navbar-collapse collapse">
+  <ul class="nav navbar-nav">
+ <li><a href="index.html">首页</a></li>
+ <li class="active"><a href="user.html">用户</a></li>
+ <li><a href="tag.html">标签</a></li>
+
+ </ul> 
+  <ul class="nav navbar-nav navbar-right">
+  <li class="dropdown">
+  <a id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    admin
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" aria-labelledby="dLabel">
+   <li><a>前台主页</a></li>
+   <li><a>前台主页</a></li>
+   <li><a>前台主页</a></li>
+   <li><a>前台主页</a></li>
+      
+  </ul>
+</li>
+  <li><a href="">联系我们</a></li>
+  <li><a href="">联系他们</a></li>
+  </ul>
+ </div>
+
+ <!-- 右边的导航 -->
+ </div>
+</nav>
+<!--导航-->
+
+<div class="container"><div class="row">
+<div class="col-md-2">
+<div class="list-group">
+<a href="user.html" class="list-group-item active">用户列表</a>
+<a href="user_search.html" class="list-group-item">用户搜索</a>
+<a href="#" role="button" class="list-group-item" data-toggle="modal" data-target="#myModal">添加用户</a>
+
+
+</div>
+
+</div>
+
+<div class="col-md-10">
+<div class="page-header">
+<h4><strong>用户列表</strong></h4>
+</div>
+<ul class="nav nav-tabs">
+<li class="active"><a href="#">Vip用户列表</a></li>
+<li><a href="user_search.html">用户搜索</a></li>
+</ul>
+
+<table class="table">
+<thead>
+<tr>
+<th>ID</th>
+<th>用户名</th>
+<th>邮箱</th>
+<th>地址</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th scope="row">1</th>
+<td>Venassa</td>
+<td>123456789</td>
+<td>
+<div role="presentation" class="dropdown">
+    <button class="btn btn-default dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+      操作 <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu">
+      ...
+    </ul>
+  </div>
+ </td>
+</tr>
+
+<tr>
+<th scope="row">2</th>
+<td>Venassa</div></td>
+<td>123456789</td>
+<td>
+<div role="presentation" class="dropdown">
+    <button class="btn btn-default dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+      操作 <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu">
+      ...
+    </ul>
+  </div>
+ </td>
+</tr>
+</tbody>
+</table>
+
+<nav class="pull-right">
+  <ul class="pagination">
+    <li class="disabled"><a href="#" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a></li>
+    <li class="active"><a href="#">1</a></li>
+    <li><a href="#">2</a></li>
+    <li><a href="#">3</a></li>
+    <li><a href="#">4</a></li>
+    <li><a href="#">5</a></li>
+    <li><a href="#">&raquo;</a></li>
+    
+  </ul>
+</nav>
+
+</div>
+
+
+
+
+</div></div>
+
+<script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

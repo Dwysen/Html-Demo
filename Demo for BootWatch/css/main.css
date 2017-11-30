@@ -1,0 +1,50 @@
+.navbar-default .navbar-nav>li>a{
+ 	color:#40D2B1;
+ 
+	}
+.navbar-default{
+	background-color:#fff;
+	border:none;
+	box-shadow:0 2px 8px 0 rgba(50,50,50,0.25);
+	}
+.navbar-default .navbar-brand{
+	font-size:30px;
+	font-weight:bold;
+	color:#40D2B1;
+	line-height:15px;
+	}
+.col-md-6 .panel-body{
+	padding:0}
+.table{
+	margin:7px 0;
+	}
+.wh64{
+	width:64px;
+	height:64px;
+	border-radius:50%;
+	}
+.col-md-7 .media{
+	margin:0;
+	}
+.martop_15{
+	
+	margin-top:15px;}
+
+
+/* user.html css*/
+.page-header{
+	margin-top:0}
+/* user_search.html css*/
+.searchform{
+	border:1px solid #ccc;
+	padding:15px;
+	border-top:none;
+	}
+/* tag.html css*/
+.taglist .alert{
+	margin:0 10px 10px 0;
+	}
+	
+	
+	
+	
